@@ -14,7 +14,7 @@ This page lists various analysis codes (some supplied with the CASTEP distributi
 ## General Postprocessing
 
 * [castep-outputs](https://github.com/oerc0122/castep_outputs) is a Python package to read and parse all of the output files of CASTEP into a standard form. This is the recommended CASTEP output parser interface. A simple CLI tool is provided to dump a `.json` file, but its main use is intended as a library to be called from future analysis codes. This is the recommended interface for developers of Python analysis tools. Currently this reads and parses all CASTEP text-format files but not the binary ones.
-* [castepxbin](ttps://github.com/zhubonan/castepxbin.git) is a collection of readers for CASTEP binary output files `.check`,`.castep_bin`, `.orbitals` etc.
+* [castepxbin](https://github.com/zhubonan/castepxbin.git) is a collection of readers for CASTEP binary output files `.check`,`.castep_bin`, `.orbitals` etc.
 * [c2x](http://www.c2x.org.uk/) (also bundled with the CASTEP distribution) can read CASTEP binary output files `.check`,`.castep_bin`,`.orbitals` and extract cell geometry data, electron densities , wavefunctions and prepare for visualization and further analysis. It can interpolate densities via a combination of trilinear and Fourier interpolation, integrate densities and calculate their dipole moments, and analyse bands for inversion symmetry. It can be used to produce output formats compatible with XCrysDen, VESTA, VMD and Jmol amongst others, and can also produce 1D data in a format suitable for gnuplot.
 
 ## Spectroscopy Modelling Tools
